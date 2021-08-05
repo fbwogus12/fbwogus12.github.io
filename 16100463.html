@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16100463</title>
+    <script>
+        window.onload = function() {
+            var addBtn = document.getElementById('add-btn');
+            var list = document.getElementById('wtm_list');
+            addBtn.addEventListener('click', function () {
+                let newList = prompt('만들고 싶은 페이지 목록을 추가해보세요!');
+                list.innerHTML += '<li>' + newList + '</li>';
+            });
+        };
+    </script>
+
+    <style>
+        .info {
+            width: 600px;
+            height: 140px;
+        }
+
+        .div-line {
+            width: auto;
+            height: 1px;
+            border-bottom: 2px solid purple;
+            margin: 40px 0 40px 0;
+        }
+
+        table {
+            width: auto;
+            height: auto;
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="info">
+        <h1>16100463 컴퓨터공학과 유재현</h1>
+        <h3>ryujh8891@gmail.com</h3>
+        <p>안녕하세요.</p>
+    </div>
+
+    <div class="div-line"></div>
+
+    <div class="prj_table">
+        <table class="my_timeline">
+            <thead class="timeline-head">
+                <tr>
+                    <th></th>
+                    <th scope="col">1학기</th>
+                    <th scope="col">2학기</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1학년</th>
+                    <td>미적분1, 실영쓰, 현사윤, 물리1, 현대예술, 안전공학, 논사, 진로</td>
+                    <td>확통, 글쓰기, 화학, 물리2, 경제, 현기사, 삶윤</td>
+                </tr>
+                <tr>
+                    <th>2학년</th>
+                    <td>프입1, 유닉스</td>
+                    <td>영문법, 소프트웨어의 세계, 프입2, 공기설, 자료구조, 디지털논리, 데이터통신</td>
+                </tr>
+                <tr>
+                    <th>3학년</th>
+                    <td>미적2, 현대문화론, 컴퓨터네트워크, 운영체제, 컴퓨터보안, DB, 지능시스템, 확률랜덤프로세스, 자바</td>
+                    <td>인공지능수학, 실용영어, 지식의세계, 금융, 컴퓨터그래픽스, 컴퓨터시스템구조</td>
+                </tr>
+                <tr>
+                    <th>4학년</th>
+                    <td>혜윰, 캡디1, 이산수학, 컴공개, 교육사회학, 사회의 이해(진행), 동적웹프(진행)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="div-line"></div>
+
+    <div class="prj_list">
+        <ul id="wtm_list">
+            <li>핫한 주식 테마 알림</li>
+            <li>코로나 확진자 수</li>
+            <li>신작 게임 소개</li>
+            <li>좋아하는 연예인</li>
+            <li>e-sports</li>
+        </ul>
+        <div class="footer">
+            <button id="add-btn">목록 추가하기</button>
+        </div>
+    </div>
+
+    <div class="div-line"></div>
+
+    <div class="my_prj">
+        <p>
+            간단한 키보드 관련 정보를 찾아볼 수 있는 페이지를 작성해보고 싶습니다.</p>
+        <p>
+            간단하게 다양한 스토어 링크도 저장해놓고, 스위치 정보나 키보드 정보를 알아볼 수 있는 수준입니다.
+        </p>
+    </div>
+</body>
+
+</html>
