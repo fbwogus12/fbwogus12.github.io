@@ -60,7 +60,7 @@ header .gnb{
     height: 70px;
     top: 210px;
     background-color: rgb(44, 44, 44);
-    border-radius: 10px;
+    border-radius: 2px;
     border: 2px solid rgb(255, 154, 154);
     z-index: 3;
 }
