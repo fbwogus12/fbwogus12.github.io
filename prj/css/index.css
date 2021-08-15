@@ -256,46 +256,6 @@ main .lnb .msg{
     height: 10px;
 }
 
-.footer_btn {
-    width:80px !important;
-    height: 23px !important;
-    font-size: 14px;
-    text-align: center;
-    float:right;
-}
-.footer_btn2{
-    width:120px !important;
-    height: 23px !important;
-    font-size: 14px;
-    text-align: center;
-    float: right;
-}
-
-.btn_style2{
-    border: none;
-    background:#f3f3f3;
-  	border-radius: 10px;
-   	text-align:center; 
-   	cursor: pointer; 
-   	color:rgb(14, 17, 177) !important;
-   	transition:550ms ease all;
-   	outline:none;
-}
-.btn_style2:hover{
-   background:rgb(75, 45, 245);
-   color:#f6f4f7 !important;
-}
-
-.footer {
-    height: 26px;
-}
-
-.footer .padding{
-    display:inline-block;
-    width:66px;
-    height: 1px;
-}
-
 #container a{
     text-decoration: none;
     color: blue;
