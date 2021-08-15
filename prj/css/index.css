@@ -59,7 +59,7 @@ header .gnb{
 .switch-category, .mount-category, .housing-category, .plate-category, .keycaps-category{
     display: none;
     color: rgb(44,44,44);
-    left: 60px;
+    left: 57px;
     border: 2px solid rgb(255, 154, 154);
     border-top: none;
     border-radius: 2px;
@@ -69,7 +69,7 @@ header .gnb{
 }
 
 .mount-category {
-    left: 21px;
+    left: 22px;
 }
 
 .housing-category {
@@ -77,11 +77,11 @@ header .gnb{
 }
 
 .plate-category{
-    left: 21px;
+    left: 22px;
 }
 
 .keycaps-category{
-    left: 4px;
+    left: 6px;
 }
 
 .switch-category a, .mount-category a, .housing-category a, .plate-category a, .keycaps-category a {
