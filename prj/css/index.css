@@ -53,6 +53,10 @@ header .head-line{
     z-index: 3;
 }
 
+.date:hover, .time:hover {
+    cursor: pointer;
+}
+
 header .gnb{
     position: absolute;
     white-space: nowrap;
@@ -80,7 +84,7 @@ header .gnb{
 .switch-category, .mount-category, .housing-category, .plate-category, .keycaps-category{
     display: none;
     color: rgb(44,44,44);
-    left: 57px;
+    left: 40px;
     border: 2px solid rgb(255, 154, 154);
     border-top: none;
     border-radius: 2px;
@@ -94,15 +98,15 @@ header .gnb{
 }
 
 .housing-category {
-    left: 37px;
+    left: 50px;
 }
 
 .plate-category{
-    left: 22px;
+    left: 51px;
 }
 
 .keycaps-category{
-    left: 6px;
+    left: 50px;
 }
 
 .switch-category a, .mount-category a, .housing-category a, .plate-category a, .keycaps-category a {

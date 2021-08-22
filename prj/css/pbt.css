@@ -135,6 +135,7 @@ header .gnb{
     background-color: #444444;
 }
 
+
 header .gnb ul{
     list-style: none;
     margin:0; padding: 0;
@@ -377,28 +378,45 @@ section p {
     margin-bottom: 2px;
 }
 
-.page1, .page2, .result-page{
+section img{
+    width: 400px;
+    height: 300px;
+}
+
+section .bigger{
+    width: 500px;
+    height: auto;
+}
+
+section span {
+    color: red;
+    margin-bottom: 25px;
+}
+
+.page1 {
     position:absolute;
-    width: 500px; height: 400px;
+    width: 500px; height: 450px;
     text-align: center;
-    box-shadow: 5px 5px 15px #333;
+    box-shadow: 15px 15px 15px rgb(0, 0, 0);
     border-radius: 15px;
 }
 
-.result-page {
-    height: 0;
-    box-shadow: 15px 15px 15px;
-    background: rgb(255, 255, 255) !important;
-    border-radius: 15px 0 15px 0;
+.page2, .page3, .page4, .page5{
+    position:absolute;
+    width: 550px; height: 630px;
+    display: none;
+    text-align: center;
+    box-shadow: 15px 15px 15px rgb(0, 0, 0);
+    border-radius: 15px;
 }
 
 .page1{
   background: #abc;
   transform-origin: left center;
   transition: 1.5s;
-  z-index:5;
+  z-index:4;
 }
-.page2, .result-page{
+.page2{
   background: #cba;
   transform-origin: left center;
   transition: 1.5s;   
@@ -406,28 +424,31 @@ section p {
   overflow: hidden;
 }
 
-.result-page {
-    z-index: 3;
-    transition: 2s;
+.page3{
+  background: rgb(173, 190, 154);
+  transform-origin: left center;
+  transition: 1.5s;   
+  z-index: 4;
+  overflow: hidden;
 }
 
-.result-page a{
-    text-decoration: none;
-    color: black;
+.page4{
+  background: rgb(189, 209, 202);
+  transform-origin: left center;
+  transition: 1.5s;   
+  z-index: 4;
+  width: 550px;
+  height: 550px;
+  overflow: hidden;
 }
 
-.result-page div a:hover {
-    text-decoration: underline;
-    text-decoration-color: rgb(255, 119, 119);
-    color: black;
-    font-weight: bolder;
-}
-
-.result-page img {
-    width: 450px;
-    height: 400px;
-    border-radius: 0 0 13px 13px;
-    margin-top: 22px;
+.page5{
+  background: rgb(207, 199, 191);
+  transform-origin: left center;
+  transition: 1.5s;   
+  z-index: 4;
+  height: 500px !important;
+  overflow: hidden;
 }
 
 .content_style {
@@ -447,19 +468,34 @@ section p {
     width: 1px;
 }
 
-audio {
-    height: 15px;
+.deco-div3 {
+    width: 130px;
+    height:2px;
+    float: left;
 }
 
-.find {
-    border-radius: 10px;
-    background-color: rgb(82, 81, 81);
-    color: white;
-    border: 2px solid rgb(255, 119, 119);
+.nav2 {
+    color:rgb(221, 220, 220);
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 30px;
+    float:left;
 }
 
-.find:hover {
-    transition: all 1s;
-    background-color: black;
-    color: rgb(255, 154, 154);
+.page p{
+    margin-left: 1px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.n_page1:hover, .n_page2:hover, .n_page3:hover, .n_page4:hover, .n_page5:hover {
+    text-decoration: underline;
+    text-decoration-color:rgb(255, 119, 119);
+    cursor: pointer;
+}
+
+.n_page1 {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 119, 119);
 }
