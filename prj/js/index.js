@@ -35,9 +35,18 @@ window.addEventListener('DOMContentLoaded', function () {
 
     //엘리먼트
     var rec = document.getElementsByClassName('rec')[0];
+    var time = document.getElementsByClassName('time')[0];
+    var date = document.getElementsByClassName('date')[0];
 
     //이벤트
     rec.addEventListener('click', function () {
         location.href = 'recommendKeyboard.html';
     })
+    time.addEventListener('click', function () {
+        location.href = '/prj/main/index.html';
+    });
+
+    date.addEventListener('click', function () {
+        location.href = '/prj/main/index.html';
+    });
 });
