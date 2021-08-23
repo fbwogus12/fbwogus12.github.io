@@ -84,7 +84,7 @@ header .gnb{
 .switch-category, .mount-category, .housing-category, .plate-category, .keycaps-category{
     display: none;
     color: rgb(44,44,44);
-    left: 40px;
+    left: 60px;
     border: 2px solid rgb(255, 154, 154);
     border-top: none;
     border-radius: 2px;
@@ -94,7 +94,7 @@ header .gnb{
 }
 
 .mount-category {
-    left: 22px;
+    left: 2px;
 }
 
 .housing-category {
@@ -269,16 +269,17 @@ main .lnb .msg{
 }
 
 main .main-content{
+    text-align: center;
     color: black;
     line-height: 1.5;
 }
 
 .content {
     float: left;
-    border:2px solid rgb(221, 220, 220);
     width: 400px;
-    height: 400px;
+    height: 300px;
     margin: 10px;
+    cursor: pointer;
 }
 
 .nav-wrapper ul {
@@ -300,4 +301,13 @@ main .main-content{
 .nav-wrapper li:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+.blind {
+    display: none !important;
+}
+
+img {
+    width: 399px;
+    height: 300px;
 }
