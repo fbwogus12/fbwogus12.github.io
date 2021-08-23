@@ -59,10 +59,19 @@ window.addEventListener('DOMContentLoaded', function () {
     var rec = document.getElementsByClassName('rec')[0];
     var time = document.getElementsByClassName('time')[0];
     var date = document.getElementsByClassName('date')[0];
+    var navs = document.getElementsByClassName('page_nav')[0];
+    var pages = document.getElementsByClassName('book')[0];
+
+    //ver 1.01 추가
+    var sideNav = document.getElementsByClassName('nav_style')[0];
+    sideNav.children[1].addEventListener('click', function () {
+        window.open("/prj/ref/ref1.html", "윤활", "width=550, height=410, top=300")
+    });
 
     //이벤트
+
     rec.addEventListener('click', function () {
-        location.href = 'recommendKeyboard.html';
+        location.href = '/prj/main/recommendKeyboard.html';
     })
     time.addEventListener('click', function () {
         location.href = '/prj/main/index.html';
