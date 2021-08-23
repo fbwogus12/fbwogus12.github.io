@@ -319,15 +319,15 @@ main .main-content{
     border-bottom: 12px solid #a88d8d; 
     border-radius: 12px;
     color:rgb(255, 255, 255);
-    margin-left: 10px;
-    padding-left: 15px;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .deco-div {
     display: inline-block;
-    width: 320px;
+    width: 278px;
     height: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .main-content {
@@ -366,7 +366,7 @@ main .main-content{
 }
 
 section{
-    margin-left: 210px !important;
+    margin-left: 98px !important;
     margin:50px auto;
     position:relative;
     width: 400px;
@@ -383,6 +383,11 @@ section img{
     height: 300px;
 }
 
+section a{
+    text-decoration: none;
+    color: red;
+}
+
 section .bigger{
     width: 500px;
     height: auto;
@@ -393,9 +398,14 @@ section span {
     margin-bottom: 25px;
 }
 
+section audio{
+    width : 380px;
+    height: 20px;
+}
+
 .page1 {
     position:absolute;
-    width: 500px; height: 400px;
+    width: 700px; height: 910px;
     text-align: center;
     box-shadow: 15px 15px 15px rgb(0, 0, 0);
     border-radius: 15px;
@@ -403,7 +413,7 @@ section span {
 
 .page2, .page3, .page4, .page5{
     position:absolute;
-    width: 550px; height: 630px;
+    width: 600px; height: 630px;
     display: none;
     text-align: center;
     box-shadow: 15px 15px 15px rgb(0, 0, 0);
@@ -411,7 +421,7 @@ section span {
 }
 
 .page1{
-  background: #abc;
+  background: rgb(202, 202, 202);
   transform-origin: left center;
   transition: 1.5s;
   z-index:4;
@@ -420,7 +430,8 @@ section span {
   background: #cba;
   transform-origin: left center;
   transition: 1.5s;   
-  z-index: 4;
+  z-index: 5;
+  height: 1040px;
   overflow: hidden;
 }
 
@@ -429,6 +440,7 @@ section span {
   transform-origin: left center;
   transition: 1.5s;   
   z-index: 4;
+  height: 830px;
   overflow: hidden;
 }
 
@@ -437,8 +449,8 @@ section span {
   transform-origin: left center;
   transition: 1.5s;   
   z-index: 4;
-  width: 500px;
-  height: 450px;
+  width: 600px;
+  height: 720px;
   overflow: hidden;
 }
 
@@ -447,7 +459,7 @@ section span {
   transform-origin: left center;
   transition: 1.5s;   
   z-index: 4;
-  height: 500px !important;
+  height: 320px !important;
   overflow: hidden;
 }
 
@@ -469,35 +481,37 @@ section span {
 }
 
 .deco-div3 {
-    width: 200px;
-    height:2px;
+    width: 260px;
+    height:50px;
     float: left;
 }
 
 .nav2 {
     color:rgb(221, 220, 220);
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 21px;
     margin-left: 30px;
+    margin-top: 20px;
     float:left;
 }
 
 .page p{
     margin-left: 1px;
+    margin-bottom: 10px;
     text-align: left;
     font-weight: bold;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
+}
+
+.n_page1 {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 119, 119);
 }
 
 .n_page1:hover, .n_page2:hover, .n_page3:hover, .n_page4:hover, .n_page5:hover {
     text-decoration: underline;
     text-decoration-color:rgb(255, 119, 119);
     cursor: pointer;
-}
-
-.n_page1 {
-  text-decoration: underline;
-  text-decoration-color: rgb(255, 119, 119);
 }
 
 .nav-wrapper ul {

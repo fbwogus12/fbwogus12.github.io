@@ -499,3 +499,24 @@ section span {
   text-decoration: underline;
   text-decoration-color: rgb(255, 119, 119);
 }
+
+.nav-wrapper ul {
+    width: 300px;
+    position: fixed;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-wrapper li {
+    background-color: rgb(5, 5, 5);
+    margin-left: 46px;
+    width: 70%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color:salmon;
+}
+
+.nav-wrapper li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
