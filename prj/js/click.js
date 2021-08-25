@@ -150,7 +150,7 @@ window.addEventListener('DOMContentLoaded', function () {
     })
 
     rec.addEventListener('click', function () {
-        location.href = '/prj/main/recommendKeyboard.html';
+        location.href = '/prj/main/rec2.html';
     })
     time.addEventListener('click', function () {
         location.href = '/prj/main/index.html';

@@ -148,7 +148,7 @@ window.addEventListener('DOMContentLoaded', function () {
         navs.children[4].style.textDecoration = 'none';
     })
     rec.addEventListener('click', function () {
-        location.href = '/prj/main/recommendKeyboard.html';
+        location.href = '/prj/main/rec2.html';
     })
     time.addEventListener('click', function () {
         location.href = '/prj/main/index.html';
